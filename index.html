@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles.css"> 
+    </head>
+    <body>
+            <div class="cal-skeleton">
+                <div class="cal-output">
+                        <div class="text" type="text" id="output-box" name="result">
+                            <a id="output"></a>
+                        </div>
+                </div>
+                <div class="cal-buttons">
+                    <button type="button" class="cal-buttons" id="nums" onclick="output('7')">7</button>
+                    <button type="button" class="cal-buttons" id="nums" onclick="output('8')">8</button>
+                    <button type="button" class="cal-buttons" id="nums" onclick="output('9')">9</button>
+                    <button type="button" class="cal-buttons" id="operations" onclick="output('+')">+</button>
+                    <br>
+                    <button type="button" class="cal-buttons" id="nums" onclick="output('4')">4</button>
+                    <button type="button" class="cal-buttons" id="nums" onclick="output('5')">5</button>
+                    <button type="button" class="cal-buttons" id="nums" onclick="output('6')">6</button>
+                    <button type="button" class="cal-buttons" id="operations" onclick="output('-')">-</button>
+                    <br>
+                    <button type="button" class="cal-buttons" id="nums" onclick="output('1')">1</button>
+                    <button type="button" class="cal-buttons" id="nums" onclick="output('2')">2</button>
+                    <button type="button" class="cal-buttons" id="nums" onclick="output('3')">3</button>
+                    <button type="button" class="cal-buttons" id="operations" onclick="output('*')">x</button> 
+                    <br>
+                    <button type="button" class="cal-buttons" id="clear" onclick="output('clear')">C</button>
+                    <button type="button" class="cal-buttons" id="nums" onclick="output('0')">0</button>
+                    <button type="button" class="cal-buttons" id="operations" onclick="operations()">=</button>
+                    <button type="button" class="cal-buttons" id="operations" onclick="output('/')">/</button>
+                
+                </div>
+            </div>
+        <script src = "script.js"></script>
+    </body>
+    </html>
