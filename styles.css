@@ -1,5 +1,5 @@
 body{
-  background-image: url('/background.gif');
+  background-image: url('background.gif');
   background-repeat: repeat;
   height: 700px;
   width: 700px;
